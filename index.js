@@ -22,7 +22,7 @@ function viewCart() {
   else {
     var str=`In your cart, you have `;
     if (cart.length===1){
-       str=str + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}`}
+       str=str + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`}
      else {
        for (var i=0; i<cart.length-1; i++){
       str=str + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}, `}
