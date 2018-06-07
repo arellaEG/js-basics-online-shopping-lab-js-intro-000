@@ -19,6 +19,15 @@ function viewCart() {
   if cart.length===0:{
     return 'Your shopping cart is empty.'
   }
+  else {
+    var str=`In your cart, you have`;
+    for (let i=0, i<cart.length, i++){
+      str=str + `${cart.i['itemName']} at ${cart.i['itemPrice']}`
+      
+    
+  }
+    
+  }
 }
 
 function total() {
