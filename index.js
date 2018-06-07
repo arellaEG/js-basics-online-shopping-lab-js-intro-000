@@ -20,7 +20,7 @@ function viewCart() {
     str= 'Your shopping cart is empty.'
   }
   else {
-    var str=`In your cart, you have`;
+    var str=`In your cart, you have `;
     if (cart.length===1){
        str=str + `${cart[i]['itemName']} at ${cart[i]['itemPrice']}`}
      else {
