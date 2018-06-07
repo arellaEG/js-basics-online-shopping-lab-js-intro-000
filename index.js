@@ -17,14 +17,18 @@ function addToCart(item) {
 
 function viewCart() {
   if (cart.length===0){
-    return 'Your shopping cart is empty.'
+    str= 'Your shopping cart is empty.'
   }
   else {
     var str=`In your cart, you have`;
+    if (cart.length===1){
+       str=str + `${cart[i]['itemName']} at ${cart[i]['itemPrice']}`{
+     else {
     for (var i=0; i<cart.length-2; i++){
       str=str + `${cart[i]['itemName']} at ${cart[i]['itemPrice']}, `}
     str=str+`and ${cart[i]['itemName']} at ${cart][i]['itemPrice']}.`
-    return str
+  }
+  return str
   }
 
   }
