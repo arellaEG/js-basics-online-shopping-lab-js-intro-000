@@ -35,8 +35,8 @@ function total() {
   sum=0
   for (let i=0, i<cart.length, i++){
     sum=sum+cart[i]['itemPrice']
-
   }
+  return sum
 
 }
 
