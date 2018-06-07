@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var curItem={['itemName']:item, ['itemPrice']:Math.floor(Math.random()*100)}
-
+ cart.['itemName']=item, cart.['itemPrice']:Math.floor(Math.random()*100)}
+ 
 }
 
 function viewCart() {
