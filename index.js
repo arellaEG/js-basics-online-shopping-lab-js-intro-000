@@ -24,6 +24,7 @@ function viewCart() {
     for (let i=0, i<cart.length, i++){
       str=str + `${cart.i['itemName']} at ${cart.i['itemPrice']}, `}
     str=str+`and ${cart.(cart.length+1)['itemName']} at ${cart.(cart.length+1)['itemPrice']}.`
+    return str
   }
 
   }
