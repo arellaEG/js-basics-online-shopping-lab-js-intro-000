@@ -42,11 +42,14 @@ function total() {
 function removeFromCart(item) {
   var rem='NA'
   for (let i=0; i<cart.length; i++){
-    if cart[i]['itemName']===item{
-      var rem=i
+    if (cart[i]['itemName']===item){
+      rem=i
       cart.splice(rem,1)
       return cart
     }
+  }
+  if (rem='NA'){
+    return `That item is not in your cart.`
   }
 }
 
